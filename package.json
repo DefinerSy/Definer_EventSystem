@@ -1,6 +1,6 @@
 {
   "name": "com.definer.eventsystem",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "displayName": "Definer EventSystem",
   "description": "\u8fd9\u662f\u4e00\u4e2a\u89c2\u5bdf\u8005\u6a21\u5f0f\u7684\u4e8b\u4ef6\u7cfb\u7edf\uff0c\u652f\u6301\u591a\u79cd\u6570\u636e\u683c\u5f0f\u3002",
   "unity": "2022.3",
