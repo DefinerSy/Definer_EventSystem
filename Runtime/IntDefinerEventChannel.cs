@@ -2,4 +2,4 @@
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Events/IntEventChannel")]
-public class IntEventChannel : EventChannel<int>{}
+public class IntDefinerEventChannel : DefinerEventChannel<int>{}

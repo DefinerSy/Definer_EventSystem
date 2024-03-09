@@ -2,4 +2,4 @@
 using UnityEngine;
 
 [CreateAssetMenu(menuName = "Events/FloatEventChannel")]
-public class FloatEventChannel : EventChannel<float>{}
+public class FloatDefinerEventChannel : DefinerEventChannel<float>{}

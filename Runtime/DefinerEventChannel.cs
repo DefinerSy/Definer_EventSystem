@@ -3,9 +3,9 @@ using UnityEngine;
 
 namespace Definer.EventSystem
 {
-    public abstract class EventChannel<T> : ScriptableObject
+    public abstract class DefinerEventChannel<T> : ScriptableObject
     {
-        readonly HashSet<EventListener<T>> observers = new();
+        readonly HashSet<DefinerEventListener<T>> observers = new();
         
         public void Invoke(T value)
         {
@@ -22,12 +22,12 @@ namespace Definer.EventSystem
                 observer.Raise(default);
             }
         }
-        public void Register(EventListener<T> observer) => observers.Add(observer);
-        public void Deregister(EventListener<T> observer) => observers.Remove(observer);
+        public void Register(DefinerEventListener<T> observer) => observers.Add(observer);
+        public void Deregister(DefinerEventListener<T> observer) => observers.Remove(observer);
     }
     
     public readonly struct Empty{}
     [CreateAssetMenu(menuName = "Events/EventChannel")]
-    public class EventChannel : EventChannel<Empty> {}
+    public class DefinerEventChannel : DefinerEventChannel<Empty> {}
     
 }
