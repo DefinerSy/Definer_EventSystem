@@ -1,15 +1,15 @@
 {
-    "name": "com.definer.eventsystem",
-    "version": "0.0.1",
-    "displayName": "Definer EventSystem",
-    "description": "这是一个观察者模式的事件系统，支持多种数据格式。",
-    "unity": "2022.3",
-   "keywords": [
-      "definer"
-    ],
-    "author": {
-      "name": "Definer",
-      "email": "definersy@gmail.com",
-      "url": "https://github.com/DefinerSy"
-    }
+  "name": "com.definer.eventsystem",
+  "version": "1.0.0",
+  "displayName": "Definer EventSystem",
+  "description": "\u8fd9\u662f\u4e00\u4e2a\u89c2\u5bdf\u8005\u6a21\u5f0f\u7684\u4e8b\u4ef6\u7cfb\u7edf\uff0c\u652f\u6301\u591a\u79cd\u6570\u636e\u683c\u5f0f\u3002",
+  "unity": "2022.3",
+  "keywords": [
+    "definer"
+  ],
+  "author": {
+    "name": "Definer",
+    "email": "definersy@gmail.com",
+    "url": "https://github.com/DefinerSy"
   }
+}
