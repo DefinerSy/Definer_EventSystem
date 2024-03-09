@@ -1,5 +1,5 @@
-﻿namespace Definer.EventSystem
-{
-    [CreateAssetMenu(menuName = "Events/FloatEventChannel")]
-    public class FloatEventChannel : EventChannel<float>{}
-}
+﻿using Definer.EventSystem;
+using UnityEngine;
+
+[CreateAssetMenu(menuName = "Events/FloatEventChannel")]
+public class FloatEventChannel : EventChannel<float>{}
